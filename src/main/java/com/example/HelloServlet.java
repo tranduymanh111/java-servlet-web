@@ -17,6 +17,6 @@ public class HelloServlet extends HttpServlet {
         PrintWriter out = response.getWriter();
 
         out.println("<h1>Hello, World, I am a servlet, chú ý nhánh của tienhuy-30/07/2025!</h1>");
-        out.println("<a href='http://localhost:8082/java-servlet-web-1.0-SNAPSHOT/'><button>Back to Home</button></a>");
+        out.println("<a href='http://localhost:8082/java-servlet-web-1.0-SNAPSHOT/'><button>Back to Home OK</button></a>");
     }
 }
